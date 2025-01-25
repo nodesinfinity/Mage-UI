@@ -1,5 +1,6 @@
-import AnimatedFollowButton from "@/mage-ui/button/animated-follow-button";
-import { Meta, StoryObj } from "@storybook/react";
+import type { Meta, StoryObj } from '@storybook/react';
+import AnimatedFollowButton from './animated-follow-button';
+
 
 const meta: Meta<typeof AnimatedFollowButton> = {
   title: "Button/Animated Follow Button",
