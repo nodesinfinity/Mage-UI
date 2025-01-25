@@ -20,7 +20,7 @@ export function SiteFooter() {
         <div className="flex gap-1">
           <div className="flex gap-1">
             <Icons.logo className="h-6 w-6 origin-[top_center] animate-[swing] transition-all duration-1000 ease-in-out direction-alternate repeat-infinite" />
-            <span>Mage-UI</span>
+            <span>age-UI</span>
           </div>
           <p className="text-muted-foreground">by</p>
           <div className="flex gap-1">
