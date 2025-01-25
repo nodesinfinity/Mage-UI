@@ -55,7 +55,7 @@ export const metadata: Metadata = {
     title: siteConfig.name,
     description: siteConfig.description,
     images: [siteConfig.ogImage],
-    creator: "@mage-ui.design",
+    creator: "Infinity Nodes",
   },
   icons: {
     icon: "/favicon.ico",
