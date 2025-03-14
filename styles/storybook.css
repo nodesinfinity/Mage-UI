@@ -35,14 +35,15 @@
   .docs-story {
     @apply flex items-center justify-center;
 
-    > div > div {
+    >div>div {
       min-width: 90vw;
       @apply flex max-w-full items-center justify-center;
     }
 
     .innerZoomElementWrapper:has(.storybook-fix) {
       @apply flow-root w-full;
-      > div {
+
+      >div {
         @apply mx-auto my-3;
       }
     }
@@ -64,6 +65,6 @@
   }
 }
 
-.sbdocs-preview > div > div {
+.sbdocs-preview>div>div {
   @apply overflow-hidden;
 }

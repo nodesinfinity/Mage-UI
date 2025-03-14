@@ -71,9 +71,11 @@ export default function Counter({
   useEffect(() => {
     springValue.on("change", (value) => {
       if (ref.current) {
-        ref.current.textContent = format ? format(value) : value;
+        ref.current.textContent = format ? String(format(value)) : String(value);
       }
     });
+
+
   }, [springValue, format]);
 
   return <span ref={ref} className={cn("text-4xl font-bold text-foreground", className)} />;

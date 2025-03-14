@@ -2,11 +2,11 @@ import { withContentlayer } from "next-contentlayer";
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: "export", // Enable static exports
+  // Remove the output: "export" line
   reactStrictMode: true,
   swcMinify: true,
   images: {
-    unoptimized: true,
+    domains: ['your-domain.com'], // Add domains for your images
   },
 };
 
